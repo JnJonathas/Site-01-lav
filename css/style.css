@@ -1,0 +1,79 @@
+@charset "UTF-8"; /* Define o padrão de codificação de caracteres como UTF-8 */
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); /* Importa a fonte Lobster do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap'); /* Importa a fonte Oswald do Google Fonts */
+
+body{
+  background-color: white; /* Define o fundo da página como branco */
+  overflow-x: hidden;
+}
+
+*{
+  text-decoration: none; /* Remove sublinhado de todos os elementos (inclusive links) */
+  color: black; /* Define a cor do texto como preto para todos os elementos */
+  box-sizing: border-box;
+
+
+}
+
+h1{
+  font-size: 2.5em; /* Define o tamanho da fonte do título */
+  font-family: "Lobster", sans-serif; /* Aplica a fonte Lobster ao título */
+}
+
+#imgz{
+  transition: transform 0.3s ease; /* Adiciona transição suave ao transformar a imagem */
+  cursor: pointer; /* Mostra o cursor de mão ao passar o mouse sobre a imagem */
+}
+
+header{
+  text-align: center; /* Centraliza o conteúdo dentro do cabeçalho */
+}
+
+#menu01{
+text-align: center; /* Centraliza os itens dentro da lista com id menu01 */
+display: flex;
+justify-content: center;
+gap: 20px;
+padding: 0;
+
+}
+
+#menu02{
+  font-family: "Lobster", sans-serif; /* Define a fonte Lobster para os itens */
+  color: black; /* Define a cor do texto como preto */
+  display: block; /* Faz o elemento se comportar como bloco */
+  text-align: center; /* Centraliza o texto */
+  list-style: none; /* Remove os marcadores de lista */
+  font-size: 1.7em; /* Aumenta o tamanho da fonte */
+  padding: 13px; /* Adiciona espaço interno */
+  border-radius: 7px; /* Arredonda os cantos da borda */
+  width: 330px; /* Define largura fixa */
+  margin: auto; /* Centraliza horizontalmente */
+  margin-bottom: 25px; /* Espaço inferior entre os blocos */
+  border: 1px solid black; /* Borda preta ao redor */
+  transition: 0.3s; /* Suaviza a transição ao passar o mouse */
+}
+
+#menu02:hover{
+  background-color: lightgray ; /* Muda o fundo ao passar o mouse */
+}
+
+#menu02 a {
+  display: block;        /* Faz o link ocupar toda a área do item */
+  width: 100%;           /* Garante que ocupe toda a largura disponível */
+  height: 100%;          /* Opcional — ocupa toda a altura do item */
+  padding: 10px;         /* Adiciona espaçamento interno */
+  box-sizing: border-box; /* Garante que padding não ultrapasse a largura */
+}
+
+footer {
+  position: auto; /* ⚠️ Valor inválido — 'auto' não é aceito para position */
+  bottom: 0; /* Define a posição do rodapé no fundo, se fosse 'fixed' ou 'absolute' */
+  left: 0; /* Alinha o rodapé à esquerda */
+  width: 100%; /* Ocupa toda a largura da tela */
+  background-color: white#ccc; /* ⚠️ Valor inválido — não existe essa cor */
+  text-align: center; /* Centraliza o texto no rodapé */
+  padding: 10px; /* Adiciona espaçamento interno */
+  font-family: "Oswald", sans-serif; /* Aplica a fonte Oswald ao rodapé */
+}

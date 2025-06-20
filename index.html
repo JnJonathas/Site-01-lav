@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon (2).ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Prime contatos</title>
+</head>
+<body>
+
+    <header><!--Cabeçalho e imagem principal -->
+        <img  src="img/logo03.jpg" id="imgz" alt="img01">
+        <h1>Prime lavandereria</h1>
+    
+    </header>
+    <div>
+        <nav> <!--Logo das redes sociais com links  -->
+            <ul id="menu01"><a href="https://www.instagram.com/prime.lavanderia_?igsh=cnd2MDBndnE4YXhp&utm_source=qr" target="_blank" rel="external" ><img src="img/insta01.jpg" alt="img03"></a>
+
+        <a href="https://wa.me/5521970675155" target="_blank" rel="external"><img src="img/whatts-01.png" alt="img04"></a>
+
+         <a href="https://www.facebook.com/share/1Ag4EGhcQm/?mibextid=wwXIfr" target="_blank" rel="external"><img src="img/face-01.jpg" alt="img05"></a>
+           
+        
+        </ul><!--menu das redes sociais com links  -->
+
+            <ul id="menu02">
+                <li><a href="https://www.instagram.com/prime.lavanderia_?igsh=cnd2MDBndnE4YXhp&utm_source=qr" target="_blank" rel="external" >Instagram</a></li>
+            </ul>
+
+            <ul id="menu02"><li><a href="https://wa.me/5521970675155" target="_blank" rel="external">Whatsapp</a></li></ul>
+
+            <ul id="menu02"> <li><a href="https://www.facebook.com/share/1Ag4EGhcQm/?mibextid=wwXIfr"target="_blank" rel="external">Facebook</a></li>
+            </ul>
+            
+            <ul id="menu02">
+             <li><a href="https://www.google.com/maps?q=Av.+Carlos+Marighella,+9607,+Itaipua%C3%A7u,+Maric%C3%A1+RJ" target="_blank" rel="external">Localização </a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Troca de logo ao clicar  -->
+    <footer>Prime lavanderia contatos! Feito por jonathas.</footer>
+<script>
+  const imagem = document.getElementById("imgz");
+
+  imagem.addEventListener("click", function () {
+    if (imagem.src.includes("img/logo03.jpg")) {
+      imagem.src = "img/logo02.jpg"; // troca pela imagem 2
+    } else {
+      imagem.src = "img/logo03.jpg"; // volta para imagem 1
+    }
+  });
+     
+</script>
+</body>
+</html>
